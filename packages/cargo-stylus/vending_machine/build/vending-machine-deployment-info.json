@@ -1,8 +1,8 @@
 {
   "network": "arbitrum-sepolia",
   "contract": "vending-machine",
-  "contract_address": "0x755e06b8638070b8d60b4cc763cda4313c5e7214",
-  "transaction_hash": "0xac12bdc6659059fb7e356e08b918774fe10c4b98af684e3d5af46b4f5a599f78",
+  "contract_address": "0xdf19e476f01026a9c8b113660b2bfe14f871aa7b",
+  "transaction_hash": "0x3476c7a842947e75cfe8b28fc8c650d56038f9361e95ad8101a450e8aa019187",
   "rpc_url": "https://sepolia-rollup.arbitrum.io/rpc",
-  "deployment_time": "2025-07-24T11:19:58Z"
+  "deployment_time": "2025-08-13T17:30:52Z"
 }
