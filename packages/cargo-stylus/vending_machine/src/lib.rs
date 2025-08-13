@@ -33,7 +33,7 @@ sol_storage! {
 #[public]
 impl VendingMachine {
     // Give a cupcake to the specified user if they are eligible (i.e., if at least 5 seconds have passed since their last cupcake).
-    pub fn give_cupcake_to(&mut self, user_address: Address) -> bool {
+    pub fn give_cupcake_to_by_yash(&mut self, user_address: Address) -> bool {
         // Get the last distribution time for the user.
         let last_distribution = self.cupcake_distribution_times.get(user_address);
         // Calculate the earliest next time the user can receive a cupcake.
@@ -66,7 +66,7 @@ impl VendingMachine {
     }
 
     // Get the cupcake balance for the specified user.
-    pub fn get_cupcake_balance_for(&self, user_address: Address) -> Uint<256, 4> {
+    pub fn get_cupcake_balance_for_by_yash(&self, user_address: Address) -> Uint<256, 4> {
         // Return the user's cupcake balance from storage.
         return self.cupcake_balances.get(user_address);
     }
